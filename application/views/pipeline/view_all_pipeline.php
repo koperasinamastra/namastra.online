@@ -35,6 +35,7 @@
                                             <th>Cabang</thclass=>
                                             <th>TL Funding</th>
                                             <th>Funding Officer</th>
+                                            <th>Nama Prospek</th>
                                             <th>Pipeline</th>
                                             <th>Produk</th>
                                             <th>Estimasi Closing</th>
@@ -55,6 +56,7 @@
                                                 <td><?php echo $p->kode_cabang; ?></td>
                                                 <td><?php echo $p->tl_funding; ?></td>
                                                 <td><?php echo $p->funding_officer; ?></td>
+                                                <td><?php echo $p->nama_prospek; ?></td>
                                                 <td><?php echo $p->pipline ?></td>
                                                 <td><?php echo $p->nama_produk ?></td>
                                                 <td><?php echo number_format($p->estimasi_close, '0', '', '.'); ?></td>
