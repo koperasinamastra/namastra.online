@@ -30,7 +30,8 @@
                                     <thead class="">
                                         <tr class="bg-primary ">
                                             <th>No</th>
-                                            <th>Tanggal Prospek</thclass=>
+                                            <th>Tanggal Input</th>
+                                            <th>Tanggal Prospek</th>
                                             <th>TL Funding</th>
                                             <th>Funding Officer</th>
                                             <th>Pipeline</th>
@@ -49,6 +50,7 @@
                                         ?>
                                             <tr>
                                                 <td><?php echo $no; ?></td>
+                                                <td><?php echo date("d-m-Y", strtotime($p->tgl_input)); ?></td>
                                                 <td><?php echo date("d-m-Y", strtotime($p->tgl_prospek)); ?></td>
                                                 <td><?php echo $p->tl_funding; ?></td>
                                                 <td><?php echo $p->funding_officer; ?></td>

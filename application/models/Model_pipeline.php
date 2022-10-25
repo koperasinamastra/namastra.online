@@ -9,7 +9,7 @@ class Model_pipeline extends CI_Model
         `estimasi_close`,`closing`,`upload_img`,`id_status`,`NotePC`,produk.`id_produk`,produk.`nama_produk`,kode_cabang
         FROM `pipeline`
         INNER JOIN produk ON pipeline.`id_produk` =produk.`id_produk`
-        ORDER BY `pipeline`.`tgl_input` DESC";
+        ORDER BY `pipeline`.`tgl_input` ASC";
 
         return $this->db->query($query);
     }
@@ -22,7 +22,7 @@ class Model_pipeline extends CI_Model
         FROM `pipeline`
         INNER JOIN produk ON pipeline.`id_produk` =produk.`id_produk`
         WHERE `kode_cabang` = '$index_data'
-        ORDER BY `pipeline`.`tgl_input` DESC";
+        ORDER BY `pipeline`.`tgl_input` ASC";
 
         return $this->db->query($query);
     }
