@@ -86,7 +86,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="estimasiclosing">Estimasi closing</label>
-                                <input type="text" class="form-control" readonly name="estimasiclosing" value="<?php echo $pipeline['estimasi_close'] ?>" id="estimasiclosing">
+                                <input type="text" class="form-control" name="estimasiclosing" value="<?php echo $pipeline['estimasi_close'] ?>" id="estimasiclosing">
                             </div>
                             <div class="form-group">
                                 <label for="closing">Closing</label>
