@@ -78,10 +78,10 @@
                                 <label for="prospek">Status prospek</label>
                                 <select class="form-control" id="prospek" name="prospek">
                                     <option value="">--Pilih Perkembangan Prospek--</option>
-                                    <option value="P1">P1 - penawaran Produk</option>
-                                    <option value="P2">P2 - Follow up</option>
-                                    <option value="P3">P3 - Solusi prospek fix angka penempatan deoposito</option>
-                                    <option value="P4">P4 - Closing Penempatan deposito</option>
+                                    <option value="P1-penawaran Produk">P1 - penawaran Produk</option>
+                                    <option value="P2-Follow up">P2 - Follow up</option>
+                                    <option value="P3-Solusi prospek fix angka">P3 - Solusi prospek fix angka penempatan deoposito</option>
+                                    <option value="P4-Closing Penempatan deposito">P4 - Closing Penempatan deposito</option>
                                 </select>
                                 <?= form_error('prospek', '<small class="text-danger" pl-3>', '</small>'); ?>
                             </div>
