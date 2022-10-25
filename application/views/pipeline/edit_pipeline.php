@@ -133,22 +133,5 @@
             locale: 'id',
             format: 'YYYY-MM-DD'
         });
-
-        $(document).ready(function() {
-            $("#closing").hide();
-            $('select[name="prospek"]').change(function() {
-                if ($('select[name="prospek"] option:selected').val() == 'P4') {
-                    $('#closing').show();
-                    $("#estimasiclosing").val('0');
-                } else {
-                    $('#closing').hide();
-                    $("#estimasiclosing").show();
-                    $(this).removeAttr('readonly');
-
-                }
-            });
-
-        });
-
     });
 </script>
