@@ -31,6 +31,7 @@
                                     <thead>
                                         <tr class="bg-primary ">
                                             <th>No</th>
+                                            <th>Tanggal Input</thclass=>
                                             <th>Tanggal Prospek</thclass=>
                                             <th>Cabang</thclass=>
                                             <th>TL Funding</th>
@@ -52,6 +53,7 @@
                                         ?>
                                             <tr>
                                                 <td><?php echo $no; ?></td>
+                                                <td><?php echo date("d-m-Y", strtotime($p->tgl_input)); ?></td>
                                                 <td><?php echo date("d-m-Y", strtotime($p->tgl_prospek)); ?></td>
                                                 <td><?php echo $p->kode_cabang; ?></td>
                                                 <td><?php echo $p->tl_funding; ?></td>
