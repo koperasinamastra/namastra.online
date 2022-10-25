@@ -141,12 +141,12 @@
             $('select[name="prospek"]').change(function() {
                 if ($('select[name="prospek"] option:selected').val() == 'P4') {
                     $('#closing').show();
-                    $("#estimasiclosing").val('0');
-                    $("#estimasiclosing").prop("disabled", true);
+                    $('#estimasiclosing').val('0');
+                    $('#estimasiclosing').prop('disabled', true);
                 } else {
                     $('#closing').hide();
-                    $("#estimasiclosing").removeProp("disabled", true);
-                    $("#estimasiclosing").show();
+                    $('#estimasiclosing').removeProp('disabled', true);
+                    $('#estimasiclosing').show();
                 }
             });
 
