@@ -48,8 +48,8 @@
                                         <option value="<?php echo $row->id_produk; ?>"><?php echo $row->nama_produk; ?></option>
                                     <?php endforeach; ?>
                                 </select>
+                                <?= form_error('produk', '<small class="text-danger" pl-3>', '</small>'); ?>
                             </div>
-                            <?= form_error('produk', '<small class="text-danger" pl-3>', '</small>'); ?>
                             <div class="form-group">
                                 <label for="tlfunding">TL Funding</label>
                                 <input type="text" class="form-control" name="tlfunding" id="tlfunding">
