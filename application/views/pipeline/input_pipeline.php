@@ -41,9 +41,8 @@
                                 <?= form_error('tgl_prospek', '<small class="text-danger" pl-3>', '</small>'); ?>
                             </div>
                             <div class="form-group">
-                                <label for="Produk">produk</label>
+                                <label for="Produk">Produk</label>
                                 <select name="produk" id="produk" class="form-control">
-                                    <option value="0">--PILIH Produk--</option>
                                     <?php foreach ($produk as $row) : ?>
                                         <option value="<?php echo $row->id_produk; ?>"><?php echo $row->nama_produk; ?></option>
                                     <?php endforeach; ?>
