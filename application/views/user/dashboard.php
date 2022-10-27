@@ -195,7 +195,6 @@
 </div>
 </section>
 
-
 <script>
     $(function() {
         /* ChartJS
@@ -215,17 +214,10 @@
                     pointHighlightFill: '#fff',
                     pointHighlightStroke: 'rgba(60,141,188,1)',
                     data: <?php echo json_encode($tot_nominal) ?>
+
                 },
                 {
                     label: '',
-                    backgroundColor: 'rgba(210, 214, 222, 1)',
-                    borderColor: 'rgba(210, 214, 222, 1)',
-                    pointRadius: false,
-                    pointColor: 'rgba(210, 214, 222, 1)',
-                    pointStrokeColor: '#c1c7d1',
-                    pointHighlightFill: '#fff',
-                    pointHighlightStroke: 'rgba(220,220,220,1)',
-                    data: [65, 59, 80, 81, 56, 55, 40]
                 },
             ]
         }
@@ -263,7 +255,7 @@
                             return 'Rp.' + value;
                         }
                     }
-                }]
+                }],
             },
 
         }
@@ -285,19 +277,12 @@
                     pointStrokeColor: 'rgba(60,141,188,1)',
                     pointHighlightFill: '#fff',
                     pointHighlightStroke: 'rgba(60,141,188,1)',
+
                     data: <?php echo json_encode($tot_pinjaman) ?>
                 },
                 {
                     label: '',
-                    backgroundColor: 'rgba(210, 214, 222, 1)',
-                    borderColor: 'rgba(210, 214, 222, 1)',
-                    pointRadius: false,
-                    pointColor: 'rgba(210, 214, 222, 1)',
-                    pointStrokeColor: '#c1c7d1',
-                    pointHighlightFill: '#fff',
-                    pointHighlightStroke: 'rgba(220,220,220,1)',
-                    data: [65, 59, 80, 81, 56, 55, 40]
-                },
+                }
             ]
         }
 

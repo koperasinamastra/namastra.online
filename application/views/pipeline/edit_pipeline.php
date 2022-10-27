@@ -72,16 +72,16 @@
                                 <select class="form-control" id="prospek" name="prospek">
                                     <option <?php if ($pipeline['pipline'] == 0) {
                                                 echo 'selected';
-                                            } ?> value="P1">P1 - penawaran Produk</option>
+                                            } ?> value="P1 - penawaran Produk">P1 - penawaran Produk</option>
                                     <option <?php if ($pipeline['pipline']  == 1) {
                                                 echo 'selected';
-                                            } ?> value="P2">P2 - Follow up</option>
+                                            } ?> value="P2 - Follow up">P2 - Follow up</option>
                                     <option <?php if ($pipeline['pipline']  == 2) {
                                                 echo 'selected';
-                                            } ?> value="P3">P3 - Solusi prospek fix angka penempatan deoposito</option>
+                                            } ?> value="P3 - Solusi prospek fix angka penempatan deoposito">P3 - Solusi prospek fix angka penempatan deoposito</option>
                                     <option <?php if ($pipeline['pipline']  == 3) {
                                                 echo 'selected';
-                                            } ?> value="P4">P4 - Closing Penempatan deposito</option>
+                                            } ?> value="P4 - Closing Penempatan deposito">P4 - Closing Penempatan deposito</option>
                                 </select>
                             </div>
                             <div class="form-group">
