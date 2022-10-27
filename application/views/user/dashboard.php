@@ -194,7 +194,6 @@
         </div>
 </div>
 </section>
-
 <script>
     $(function() {
         /* ChartJS
